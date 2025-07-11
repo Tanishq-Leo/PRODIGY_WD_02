@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://media.istockphoto.com/id/162717010/photo/carbon-fiber-material-useful-as-texture.jpg?s=612x612&w=0&k=20&c=ZZcELtzNsmFniK3FCR74DazUxaQ9DtyxLsPttOa32XY=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #fff;
+}
+
+
+.container {
+  text-align: center;
+  background: #181818;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #00e6a8;
+  width: 90%;
+  max-width: 500px;
+  /* border: 1px solid #00e6a8; */
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+#stopwatch {
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 8px #00e6a8;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #111;
+  background-color: #00e6a8;
+  box-shadow: 0 4px 12px rgba(0, 230, 168, 0.5);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #00c79e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  font-size: 18px;
+  background: #1a1a1a;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  border-left: 5px solid #00e6a8;
+  box-shadow: 0 0 8px rgba(0,230,168,0.3);
+}
